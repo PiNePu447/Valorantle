@@ -1,0 +1,12 @@
+    .ep = ; .bang = ; .molly = ; .role = ; .genre = ; .face = ; .wall = ; .radiant = ; .difficulty = ;
+    astra.ep = 2; astra.bang = false; astra.molly = false; astra.role = "Controlador"; astra.genre = "F"; astra.face = false; astra.wall = true; astra.radiant = true; astra.difficulty = 5;
+    kayo.ep = 3; kayo.bang = true; kayo.molly = true; kayo.role = "Iniciador"; kayo.genre = "M"; kayo.face = false; kayo.wall = false; kayo.radiant = false; kayo.difficulty = 3;
+    chamber.ep = 3; chamber.bang = false; chamber.molly = false; chamber.role = "Sentinela"; chamber.genre = "M"; chamber.face = true; chamber.wall = false; chamber.radiant = true; chamber.difficulty = 1;
+    neon.ep = 4; neon.bang = false; neon.molly = false; neon.role = "Duelista"; neon.genre = "F"; neon.face = false; neon.wall = true; neon.radiant = true; neon.difficulty = 5;
+    fade.ep = 4; fade.bang = false; fade.molly = false; fade.role = "Iniciador"; fade.genre = "F"; fade.face = false; fade.wall = false; fade.radiant = true; fade.difficulty = 3;
+    harbor.ep = 5; harbor.bang = false; harbor.molly = false; harbor.role = "Controlador"; harbor.genre = "M"; harbor.face = false; harbor.wall = true; harbor.radiant = true; harbor.difficulty = 5;
+    gekko.ep = 6; gekko.bang = true; gekko.molly = true; gekko.role = "Iniciador"; gekko.genre = "M"; gekko.face = false; gekko.wall = false; gekko.radiant = true; gekko.difficulty = 3;
+    deadlock.ep = 7; deadlock.bang = false; deadlock.molly = false; deadlock.role = "Sentinela"; deadlock.genre = "F"; deadlock.face = false; deadlock.wall = true; deadlock.radiant = false; deadlock.difficulty = 2;
+    iso.ep = 7; iso.bang = false; iso.molly = false; iso.role = "Duelista" ; iso.genre = "M"; iso.face = false; iso.wall = true; iso.radiant = true; iso.difficulty = 3;
+    clove.ep = 8; clove.bang = false; clove.molly = false; clove.role = "Controlador"; clove.genre = "Neutre"; clove.face = false; clove.wall = false; clove.radiant = true; clove.difficulty = 3;
+    vyse.ep = 9; vyse.bang = true; vyse.molly = true; vyse.role = "Sentinela"; vyse.genre = "F"; vyse.face = true; vyse.wall = true; vyse.radiant = true; vyse.difficulty = 3;
