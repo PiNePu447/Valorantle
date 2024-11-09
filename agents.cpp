@@ -1,1 +1,1 @@
-#include struct.cpp;
+using namespace struct.cpp;
