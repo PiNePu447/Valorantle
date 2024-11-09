@@ -1,4 +1,4 @@
-#include "structs.hpp";
+#include "structs.hpp"
 
 struct agent brim;
 struct agent phoenix;
