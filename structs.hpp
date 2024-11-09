@@ -21,4 +21,4 @@ struct agent
     bool radiant;
     /*Dificuldade de jogar*/
     int difficulty;
-}agent;
+};
