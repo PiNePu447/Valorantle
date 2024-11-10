@@ -66,41 +66,29 @@ agent pega_resposta(){
     cin >> resposta;
     for (int i = 0; i < int(resposta.length()); i++){resposta[i] = toupper(resposta[i]);}
     
-    if (resposta == "BRIMSTONE")
-    {
+    if (resposta == "BRIMSTONE"){
         return brimstone;
-    }else if (resposta == "PHOENIX")
-    {
+    }else if (resposta == "PHOENIX"){
         return phoenix;
-    }else if (resposta == "SAGE")
-    {
+    }else if (resposta == "SAGE"){
         return sage;
-    }else if (resposta == "SOVA")
-    {
+    }else if (resposta == "SOVA"){
         return sova;
-    }else if (resposta == "VIPER")
-    {
+    }else if (resposta == "VIPER"){
         return viper;
-    }else if (resposta == "CYPHER")
-    {
+    }else if (resposta == "CYPHER"){
         return cypher;
-    }else if (resposta == "REYNA")
-    {
+    }else if (resposta == "REYNA"){
         return reyna;
-    }else if (resposta == "KILLJOY")
-    {
+    }else if (resposta == "KILLJOY"){
         return killjoy;
-    }else if (resposta == "BREACH")
-    {
+    }else if (resposta == "BREACH"){
         return breach;
-    }else if (resposta == "OMEN")
-    {
+    }else if (resposta == "OMEN"){
         return omen;
-    }else if (resposta == "JETT")
-    {
+    }else if (resposta == "JETT"){
         return jett;
-    }else if (resposta == "RAZE")
-    {
+    }else if (resposta == "RAZE"){
         return raze;
     }else if (resposta == "SKYE"){
         return skye;
