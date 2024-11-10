@@ -116,5 +116,8 @@ agent pega_resposta(){
         return clove;
     }else if (resposta == "VYSE"){
         return vyse;
+    }else{
+        cout << "Nao eh um boneco do jogo." << endl;
+        return pega_resposta();
     }
 }
