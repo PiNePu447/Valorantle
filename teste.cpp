@@ -7,8 +7,5 @@ int main(){
     agent picked = agent_picker();
     string resposta;
 
-    cout << picked.name;
-
-    cin >> resposta;
-    
+    cout << picked.name;  
 }
