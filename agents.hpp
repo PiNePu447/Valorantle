@@ -1,6 +1,6 @@
 #include "structs.hpp"
 
-struct agent brim;
+struct agent brimstone;
 struct agent phoenix;
 struct agent sage;
 struct agent sova;

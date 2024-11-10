@@ -2,7 +2,7 @@
 #define number_agents 25
 
 void declaraBoneco(){
-    brim.name = "Brimstone"; brim.ep = 0; brim.bang = false; brim.molly = true; brim.role = "Controlador"; brim.genre = "M"; brim.face = false; brim.wall = false; brim.radiant = false; brim.difficulty = 3;
+    brimstone.name = "Brimstone"; brimstone.ep = 0; brimstone.bang = false; brimstone.molly = true; brimstone.role = "Controlador"; brimstone.genre = "M"; brimstone.face = false; brimstone.wall = false; brimstone.radiant = false; brimstone.difficulty = 3;
     phoenix.name = "Phoenix"; phoenix.ep = 0; phoenix.bang = true; phoenix.molly = true; phoenix.role = "Duelista"; phoenix.genre = "M"; phoenix.face = false; phoenix.wall = true; phoenix.radiant = true; phoenix.difficulty = 1;
     sage.name = "Sage"; sage.ep = 0; sage.bang = false; sage.molly = false; sage.role = "Sentinela"; sage.genre = "F"; sage.face = false; sage.wall = true; sage.radiant = true; sage.difficulty = 1;
     sova.name = "Sova"; sova.ep = 0; sova.bang = false; sova.molly = false; sova.role = "Iniciador"; sova.genre = "M"; sova.face = false; sova.wall = false; sova.radiant = false; sova.difficulty = 4;
@@ -31,7 +31,7 @@ void declaraBoneco(){
 
 agent picker(){
     agent agents[number_agents];
-    agents[0] = brim;
+    agents[0] = brimstone;
     agents[1] = phoenix;
     agents[2] = sage;
     agents[3] = sova;
