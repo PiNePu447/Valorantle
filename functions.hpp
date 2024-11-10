@@ -1,7 +1,7 @@
 #include "agents.hpp"
 #define number_agents 25
 
-void declaraBoneco(){
+void caracteriscas(){
     brimstone.name = "Brimstone"; brimstone.ep = 0; brimstone.bang = false; brimstone.molly = true; brimstone.role = "Controlador"; brimstone.genre = "M"; brimstone.face = false; brimstone.wall = false; brimstone.radiant = false; brimstone.difficulty = 3;
     phoenix.name = "Phoenix"; phoenix.ep = 0; phoenix.bang = true; phoenix.molly = true; phoenix.role = "Duelista"; phoenix.genre = "M"; phoenix.face = false; phoenix.wall = true; phoenix.radiant = true; phoenix.difficulty = 1;
     sage.name = "Sage"; sage.ep = 0; sage.bang = false; sage.molly = false; sage.role = "Sentinela"; sage.genre = "F"; sage.face = false; sage.wall = true; sage.radiant = true; sage.difficulty = 1;
@@ -29,7 +29,7 @@ void declaraBoneco(){
     vyse.name = "Vyse"; vyse.ep = 9; vyse.bang = true; vyse.molly = true; vyse.role = "Sentinela"; vyse.genre = "F"; vyse.face = true; vyse.wall = true; vyse.radiant = true; vyse.difficulty = 3;
 }
 
-agent picker(){
+agent agent_picker(){
     agent agents[number_agents];
     agents[0] = brimstone;
     agents[1] = phoenix;
