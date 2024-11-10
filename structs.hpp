@@ -3,6 +3,8 @@ using namespace std;
 
 struct agent
 {
+    /*Nome*/
+    string name;
     /*Lançamento*/
     int ep;
     /*Tem bang?*/
