@@ -60,3 +60,54 @@ agent agent_picker(){
     agent picked = agents[rand()%number_agents];
     return picked;
 }
+
+agent pega_resposta(){
+    string resposta;
+    cin >> resposta;
+    for (int i = 0; i < int(resposta.length()); i++){resposta[i] = toupper(resposta[i]);}
+    
+    if (resposta == "BRIMSTONE")
+    {
+        return brimstone;
+    }else if (resposta == "PHOENIX")
+    {
+        return phoenix;
+    }else if (resposta == "SAGE")
+    {
+        return sage;
+    }else if (resposta == "SOVA")
+    {
+        return sova;
+    }else if (resposta == "VIPER")
+    {
+        return viper;
+    }else if (resposta == "CYPHER")
+    {
+        return cypher;
+    }else if (resposta == "REYNA")
+    {
+        return reyna;
+    }else if (resposta == "KILLJOY")
+    {
+        return killjoy;
+    }else if (resposta == "BREACH")
+    {
+        return breach;
+    }else if (resposta == "OMEN")
+    {
+        return omen;
+    }else if (resposta == "JETT")
+    {
+        return jett;
+    }else if (resposta == "RAZE")
+    {
+        return raze;
+    }
+    
+    
+    
+    
+    
+    
+
+}
