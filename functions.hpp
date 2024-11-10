@@ -129,11 +129,4 @@ agent pega_resposta(){
     }else if (resposta == "VYSE"){
         return vyse;
     }
-    
-    
-    
-    
-    
-    
-
 }
