@@ -1,4 +1,5 @@
 #include "agents.hpp"
+#define number_agents 25
 
 void declaraBoneco(){
     brim.ep = 0; brim.bang = false; brim.molly = true; brim.role = "controller"; brim.genre = "M"; brim.face = false; brim.wall = false; brim.radiant = false; brim.difficulty = 3;
@@ -26,4 +27,36 @@ void declaraBoneco(){
     iso.ep = 7; iso.bang = false; iso.molly = false; iso.role = "Duelista" ; iso.genre = "M"; iso.face = false; iso.wall = true; iso.radiant = true; iso.difficulty = 3;
     clove.ep = 8; clove.bang = false; clove.molly = false; clove.role = "Controlador"; clove.genre = "Neutre"; clove.face = false; clove.wall = false; clove.radiant = true; clove.difficulty = 3;
     vyse.ep = 9; vyse.bang = true; vyse.molly = true; vyse.role = "Sentinela"; vyse.genre = "F"; vyse.face = true; vyse.wall = true; vyse.radiant = true; vyse.difficulty = 3;
+}
+
+agent picker(){
+    agent agents[number_agents];
+    agents[0] = brim;
+    agents[1] = phoenix;
+    agents[2] = sage;
+    agents[3] = sova;
+    agents[4] = viper;
+    agents[5] = cypher;
+    agents[6] = reyna;
+    agents[7] = killjoy;
+    agents[8] = breach;
+    agents[9] = omen;
+    agents[10] = jett;
+    agents[11] = raze;
+    agents[12] = skye;
+    agents[13] = yoru;
+    agents[14] = astra;
+    agents[15] = kayo;
+    agents[16] = chamber;
+    agents[17] = neon;
+    agents[18] = fade;
+    agents[19] = harbor;
+    agents[20] = gekko;
+    agents[21] = deadlock;
+    agents[22] = iso;
+    agents[23] = clove;
+    agents[24] = vyse;
+    srand(time(0));
+    agent picked = agents[rand()%number_agents];
+    return picked;
 }
