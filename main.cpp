@@ -3,6 +3,9 @@
 using namespace std;
 
 int main(){
-    declaraBoneco();
-    cout << brim.name << "\n" << brim.ep << "\n" << brim.bang << "\n" << brim.molly << "\n" << brim.role << "\n" << brim.genre << "\n" << brim.face << "\n" << brim.wall << "\n" << brim.radiant << "\n" << brim.difficulty;
+    caracteriscas();
+    string agente;
+    cout << "Qual agente?\n     --";
+    cin >> agente;
+    cout << agente.name << "\n" << agente.ep << "\n" << agente.bang << "\n" << agente.molly << "\n" << agente.role << "\n" << agente.genre << "\n" << agente.face << "\n" << agente.wall << "\n" << agente.radiant << "\n" << agente.difficulty;
 }
