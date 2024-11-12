@@ -1,6 +1,6 @@
 #include "structs.hpp"
 
-struct agent brimstone;
+/*struct agent brimstone;
 struct agent phoenix;
 struct agent sage;
 struct agent sova;
@@ -24,4 +24,6 @@ struct agent gekko;
 struct agent deadlock;
 struct agent iso;
 struct agent clove;
-struct agent vyse;
+struct agent vyse;*/
+
+agent lista[25] = {brimstone}
