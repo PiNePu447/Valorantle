@@ -1,0 +1,11 @@
+{
+    "C_Cpp.default.compilerPath": "c:\\Codes\\mingw64\\bin\\c++.exe",
+    "files.associations": {
+        "iostream": "cpp",
+        "text_encoding": "cpp",
+        "typeinfo": "cpp",
+        "deque": "cpp",
+        "string": "cpp",
+        "vector": "cpp"
+    }
+}

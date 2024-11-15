@@ -25,5 +25,3 @@ struct agent deadlock;
 struct agent iso;
 struct agent clove;
 struct agent vyse;*/
-
-agent lista[25] = {brimstone}

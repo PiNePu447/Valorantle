@@ -1,15 +1,12 @@
-#include <iostream>
-#include <string>
 #include "functions.hpp"
-using namespace std;
 
 int main(){
     cout << "Qual agente?\n     --";
     caracteriscas();
-    agent escolhido = agent_picker();
+    Agent escolhido = agent_picker();
 
     cout << escolhido.name;
-    agent agente = pega_resposta();
+    Agent agente = pega_resposta();
 
     int life = 5, tentativas = 0;
 
