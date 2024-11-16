@@ -113,7 +113,6 @@ void caracteriscas(){
 }
 
 Agent agent_picker(){
-   
     srand(time(0));
     Agent picked = lista[rand()%number_agents];
     return picked;
@@ -125,8 +124,10 @@ Agent pega_resposta(){
     for (int i = 0; i < int(resposta.length()); i++){resposta[i] = toupper(resposta[i]);}
     for(int i = 0; i < int(lista.size()); i++)   {
         string upperName = lista[i].name;
+        /* o transform tava com problema pq tem 2 tipos de toupper, o do C padrao e o do std do C++ ai o compilador fica perdido eu tentei especificar
+        o caminho mas ainda nao estava dando certo entao para pelo menos compilar e rodar por enquanto eu usei outro for igual o da resposta */
         for (int i = 0; i < int(upperName.length()); i++){upperName[i] = toupper(upperName[i]);}
-        // arrumar esse transform de merda
+        // arrumar esse transform de merda -- PODEMOS so largar esse transform ou tem algum beneficio de eficiencia/complexidade?
         //string upperName = transform(lista[i].name.begin(), lista[i].name.end(), lista[i].name.begin(), []( char c ) { return ( toupper( c ) ); } );
         //string upperName = transform(lista[i].name.begin(), lista[i].name.end(), lista[i].name.begin(),::toupper);
         if(resposta == upperName) {
