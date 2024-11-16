@@ -7,6 +7,7 @@ using namespace std;
 #include <map>
 #include <vector>
 #include <string>
+#include <algorithm>
 using namespace std;
 
 void caracteriscas(){
@@ -125,7 +126,7 @@ Agent pega_resposta(){
     for(int i = 0; i < lista.size(); i++)   {
         // arrumar esse transform de merda
         string upperName = transform(lista[i].name.begin(), lista[i].name.end(), lista[i].name.begin(),::toupper);
-
+        //string upperName = transform(lista[i].name.begin(), lista[i].name.end(), lista[i].name.begin(),::toupper);
         if(resposta == upperName) {
             return lista[i];
         }
