@@ -1,11 +1,12 @@
 #include "functions.hpp"
 
 int main(){
-    cout << "Qual agente?\n     --";
     caracteriscas();
+    
     Agent escolhido = agent_picker();
+    cout << escolhido.name << endl;
 
-    cout << escolhido.name;
+    cout << "Qual agente?\n     --";
     Agent agente = pega_resposta();
 
     int life = 5, tentativas = 0;
@@ -22,6 +23,7 @@ int main(){
             }else{
                 cout << "Errou o ep" << endl;
             }
+            agente = pega_resposta();
             //agente.ep agente.bang agente.molly agente.role agente.genre agente.face agente.wall agente.radiant agente.difficulty
         }else{
             cout << "ACERTOU!!!!!!!!!\n ERA MESMO O(A) " << escolhido.name;

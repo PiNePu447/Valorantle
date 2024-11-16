@@ -124,8 +124,10 @@ Agent pega_resposta(){
     cin >> resposta;
     for (int i = 0; i < int(resposta.length()); i++){resposta[i] = toupper(resposta[i]);}
     for(int i = 0; i < lista.size(); i++)   {
+        string upperName = lista[i].name;
+        for (int i = 0; i < int(upperName.length()); i++){upperName[i] = toupper(upperName[i]);}
         // arrumar esse transform de merda
-        string upperName = transform(lista[i].name.begin(), lista[i].name.end(), lista[i].name.begin(),::toupper);
+        //string upperName = transform(lista[i].name.begin(), lista[i].name.end(), lista[i].name.begin(), []( char c ) { return ( toupper( c ) ); } );
         //string upperName = transform(lista[i].name.begin(), lista[i].name.end(), lista[i].name.begin(),::toupper);
         if(resposta == upperName) {
             return lista[i];
