@@ -17,6 +17,7 @@ int main(){
 
         if (agente.name != escolhido.name){
             cout << "Errou perdeu uma vida" << endl;
+            // tem q ter um jeito melhor de fazer essa merda
             if (agente.ep == escolhido.ep)
             {
                 cout << "Lancou no msm ep" << endl;
