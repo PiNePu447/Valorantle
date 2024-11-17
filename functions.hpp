@@ -12,7 +12,7 @@ using namespace std;
 
 void caracteriscas(){
     Agent brimstone;
-    brimstone.name = "Brimstone"; brimstone.ep = 0; brimstone.bang = false; brimstone.molly = true; brimstone.role = "Controlador"; brimstone.genre = "M"; brimstone.face = false; brimstone.wall = false; brimstone.radiant = false; brimstone.difficulty = 3; 
+    brimstone.name = "Brimstone"; brimstone.ep = 0; brimstone.bang = false; brimstone.molly = true; brimstone.role = "Controlador"; brimstone.genre = "M"; brimstone.face = false; brimstone.wall = false; brimstone.radiant = false; brimstone.difficulty = 3;
     lista.push_back(brimstone);
 
     Agent phoenix;
@@ -142,9 +142,9 @@ Agent pega_resposta(){
 void comparaBoneco(Agent escolhido, Agent resp){
     if (escolhido.ep == resp.ep)
     {
-        cout << escolhido.ep << "\n sim" << endl;
+        cout << "Ep:" << escolhido.ep << "\n sim" << endl;
     } else {
-        cout << escolhido.ep << "\n nao" << endl;    
+        cout << "Ep:" << escolhido.ep << "\n nao" << endl;    
     }
     
 }
