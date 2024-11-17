@@ -7,7 +7,7 @@ int main(){
     cout << escolhido.name << endl;
 
     cout << "Qual agente?\n     --";
-    Agent agente = pega_resposta();
+    Agent resp = pega_resposta();
 
     int life = 5, tentativas = 0;
 
@@ -15,16 +15,16 @@ int main(){
     {
         tentativas++;
 
-        if (agente.name != escolhido.name){
+        if (resp.name != escolhido.name){
             cout << "Errou perdeu uma vida" << endl;
             // tem q ter um jeito melhor de fazer essa merda
-            if (agente.ep == escolhido.ep)
+            if (resp.ep == escolhido.ep)
             {
                 cout << "Lancou no msm ep" << endl;
             }else{
                 cout << "Errou o ep" << endl;
             }
-            agente = pega_resposta();
+            resp = pega_resposta();
             //agente.ep agente.bang agente.molly agente.role agente.genre agente.face agente.wall agente.radiant agente.difficulty
         }else{
             cout << "ACERTOU!!!!!!!!!\n ERA MESMO O(A) " << escolhido.name;

@@ -138,3 +138,13 @@ Agent pega_resposta(){
     cout << "Nao eh um boneco do jogo." << endl;
         return pega_resposta();
 }
+
+void comparaBoneco(Agent escolhido, Agent resp){
+    if (escolhido.ep == resp.ep)
+    {
+        cout << escolhido.ep << "\n sim" << endl;
+    } else {
+        cout << escolhido.ep << "\n nao" << endl;    
+    }
+    
+}
